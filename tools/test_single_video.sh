@@ -1,0 +1,2 @@
+# 输入视频、模型，输出结果
+python tools/inference.py input/0001_0237_0267.mp4 "The highlight moments of the Honor of Kings game." --config configs/wzry_146_short/r2_tuning_wzry_146_short.py --checkpoint work_dirs/r2_tuning_wzry_146_short_2/epoch_100.pth
